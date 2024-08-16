@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* Navbar */
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.links:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+
+/* home */
+#homeContent{
+    margin: 13% 0% 0% 8%;
+}
+#uname{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Playwrite BE VLG", cursive;
+
+}
+#lname{
+    font-family: "Playwrite BE VLG", cursive;
+    color: rgb(253, 65, 87);
+
+}
+#udetails{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+#homeImages{
+   width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: bottom 2s, left 2s;
+}
+#homeImages:hover #shape{
+    bottom: 30px;
+}
+#homeImages:hover #guy{
+    left: 45%;
+}
+#guy{
+    z-index: 2;
+}
+
+/* about */
+#about{
+    margin: 15% 8% 0% 8%;
+}
+.section-head{
+    text-align: center;
+    
+
+}
+.main-head{
+    font-size: 30px;
+    font-family: "Playwrite BE VLG", cursive;
+    color: green;
+}
+.section-body{
+    display: flex;
+    align-items: center;
+
+}
+.aboutContent p{
+    text-align: justify;
+    line-height: 2;
+    font-weight: 500;
+    padding: 20px;
+}
+.section-body div img{
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+}
+.information{
+   margin-top: 30px;
+   margin-left: 40px;
+   line-height: 2;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.info-box span{
+    margin-left: 20px;
+}
+/* skills */
+
+#skills{
+    margin: 8% 8% 0% 8%;
+}
+.skillContent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    gap: 2rem;
+}
+.skillImage img{
+    width: 100%;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    position: relative;
+}
+.baseBar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlBar{
+    width: 90%;
+    background-color: orangered;
+}
+.cssBar{
+    width: 89%;
+    background-color: orangered;
+}
+.javascriptBar{
+    width: 80%;
+    background-color: orangered;
+}
+.contacts{
+    margin: 8%;
+}
+.iconCollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 10px ;
+
+}
+.brand{
+    color: black;
+    font-size: 20px;
+}
+.brand:hover{
+    color: white;
+}
+.icons:hover{
+    background-image:linear-gradient( to bottom right,yellow,rgb(255, 123, 0)) ;
+    animation: rotate 2s ;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+
+    40%{
+    transform: rotate(-30deg);
+    }
+    60%{
+        transform: rotate(30deg);
+
+    }
+    80%{
+        transform: rotate(-30deg);
+
+    }
+    100%{
+        transform: rotate(30deg);
+
+    }
+
+
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+}
+.arrowup{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}

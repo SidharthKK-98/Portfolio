@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- navbar -->
+         <nav>
+            <img class="logo" src="./images/logo-removebg-preview.png"  alt="logo">
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skills">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contacts">Contact</a></li>
+            </ul>
+         </nav>
+         <!-- Home -->
+          <section id="home">
+            <div id="homeContent">
+                <h1 id="uname">I'm <span id="lname">Sidharth</span></h1>
+                <p id="udetails">This is my official portfolio website to describe <br> details and workexperience in Web development</p>
+                <a class="download" href="./RESUME_compressed.pdf"download>Download CV</a>
+            </div>
+            
+            <div id="homeImages">
+                <img class="group1" id="guy" src="./images/guy-removebg-preview.png" alt="person">
+               <img class="group1" id="shape" src="./images/amebic.png" alt="background">
+            </div>
+          </section>
+
+          <!-- About -->
+           <div id="about">
+              <div class="section-head">
+                <h3 class="main-head">About</h3>
+                <span class="sub-head">Introduction</span>
+              </div>
+              <div class="section-body">
+                 <div id="aboutImg">
+                    <img src="./images/about.jpg" alt="">
+                 </div>
+                 <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, voluptatem! Rerum, aliquid vel? Sint deserunt corrupti eveniet ipsam iste impedit natus sunt architecto earum beatae? Cumque doloremque reprehenderit et perspiciatis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repudiandae itaque quas, vitae tenetur esse vel dolor cumque nam quos expedita optio sequi non saepe cupiditate quo cum qui quia?
+                    </p>
+                    <div class="information">
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Sidharth K K</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9497026724</span>
+                        </div>
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>                           
+                            <span>sid@gmail.com</span>
+                        </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+    <!-- skills -->
+     <div id="skills">
+        <div class="section-head">
+            <h3 class="main-head">Skills</h3>
+            <span class="sub-head">My Skills</span>
+        </div>
+        <div class="skillContent">
+            <div class="progressbar">
+                <div class="bar">
+                    <h3 class="barHead">HTML</h3>
+                    <span class="barPerce">90%</span>
+                    <div class="baseBar"></div>
+                    <div class="baseBar htmlBar"></div>
+                </div>
+                <div class="bar">
+                    <h3 class="barHead">CSS</h3>
+                    <span class="barPerce">89%</span>
+                    <div class="baseBar"></div>
+                    <div class="baseBar cssBar"></div>
+                </div>
+                <div class="bar">
+                    <h3 class="barHead">JAVASCRIPT</h3>
+                    <span class="barPerce">80%</span>
+                    <div class="baseBar"></div>
+                    <div class="baseBar javascriptBar"></div>
+                </div>
+            </div>
+            
+            <div class="skillImage">
+                <img src="./images/study" alt="">
+            </div>
+        </div>
+     </div>
+
+     <!-- contact -->
+       <section id="contacts">
+          <div class="section-head">
+            <h3 class="main-head">Contacts</h3>
+            <span class="sub-head">My contacts</span>
+          </div>
+
+          <div class="iconCollection">
+            <div class="icons" >
+                <a href="" target="_blank"><i class="fa-brands fa-linkedin-in brand"></i></a>
+             </div>
+             <div class="icons">
+                <a href="#" target="_blank"><i class="fa-brands fa-github brand"></i></a>
+             </div>
+             <div class="icons">
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter brand"></i></a>
+             </div>
+             <div class="icons">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook brand"></i></a>
+             </div>
+             <div class="icons">
+                <a href="#" type="_blank"><i class="fa-brands fa-instagram brand"></i></a>
+             </div>
+          </div>
+
+       </section>
+       
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; portfolio website,all rights are reserved to &reg;Sidharth</p>
+            <div class="icons arrowup">
+                <a href="#container" ><i class="fa-solid fa-arrow-up brand"></i></a>
+             </div>
+        </footer>
+
+    </div>
+</body>
+</html>
